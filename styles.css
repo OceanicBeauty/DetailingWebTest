@@ -1,0 +1,39 @@
+.navbar {
+    width: 100%;
+    background-color: aliceblue;
+    border: 2px solid black;
+    overflow: auto;
+    display: inline-flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: rgb(71 121, 152);
+    font-weight: bold;
+    text-decoration: none;
+    width: 100%;
+
+}
+
+.navbar a:hover {
+    background-color: #5f7e93;
+  } 
+
+.navbar a.active {
+    background-color: #eaeaea;
+  }
+
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  
+  
+
